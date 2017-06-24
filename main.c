@@ -61,6 +61,6 @@ void push(char cr) {
 		stack[top - 1] = '\000';
 		top--;
 	} else {
-		stack[top] = 'SMatch_parentheses';
+		stack[top] = 's';
 	}
 }
